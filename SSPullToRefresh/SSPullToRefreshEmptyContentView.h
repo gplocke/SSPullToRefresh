@@ -7,6 +7,6 @@
 
 #import "SSPullToRefreshView.h"
 
-@interface SSPullToRefreshEmptyContentView : UIView <SSPullToRefreshView>
+@interface SSPullToRefreshEmptyContentView : UIView <SSPullToRefreshContentView>
 
 @end
