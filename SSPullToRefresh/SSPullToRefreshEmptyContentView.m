@@ -17,4 +17,21 @@
 	return self;
 }
 
+- (void)setState:(SSPullToRefreshViewState)state withPullToRefreshView:(SSPullToRefreshView *)view {
+	switch (state) {
+		case SSPullToRefreshViewStateReady: {
+			break;
+		}
+			
+		case SSPullToRefreshViewStateNormal: {
+			break;
+		}
+			
+		case SSPullToRefreshViewStateLoading:
+		case SSPullToRefreshViewStateClosing: {
+			break;
+		}
+	}
+}
+
 @end
