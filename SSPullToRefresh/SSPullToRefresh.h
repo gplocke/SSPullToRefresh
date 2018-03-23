@@ -22,3 +22,6 @@ FOUNDATION_EXPORT const unsigned char SSPullToRefreshVersionString[];
 
 // Simple content view. Similar to Path.
 #import <SSPullToRefresh/SSPullToRefreshSimpleContentView.h>
+
+// Empty content view.
+#import <SSPullToRefresh/SSPullToRefreshEmptyContentView.h>
