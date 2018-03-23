@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02290B96206528FE00DC29AB /* SSPullToRefreshEmptyContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02290B94206528FE00DC29AB /* SSPullToRefreshEmptyContentView.h */; };
+		02290B97206528FE00DC29AB /* SSPullToRefreshEmptyContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02290B95206528FE00DC29AB /* SSPullToRefreshEmptyContentView.m */; };
 		368DECDC1B20B1EE0098369F /* SSPullToRefreshDefaultContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4A16B9E8600028CF6C /* SSPullToRefreshDefaultContentView.m */; };
 		368DECDD1B20B1EE0098369F /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4C16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.m */; };
 		368DECDE1B20B1EE0098369F /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4E16B9E8600028CF6C /* SSPullToRefreshView.m */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02290B94206528FE00DC29AB /* SSPullToRefreshEmptyContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPullToRefreshEmptyContentView.h; sourceTree = "<group>"; };
+		02290B95206528FE00DC29AB /* SSPullToRefreshEmptyContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPullToRefreshEmptyContentView.m; sourceTree = "<group>"; };
 		368DECC31B20B12F0098369F /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		368DECC61B20B12F0098369F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E5FDF0F16B9E5230028CF6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				9E5FDF4816B9E8600028CF6C /* SSPullToRefresh.h */,
+				02290B94206528FE00DC29AB /* SSPullToRefreshEmptyContentView.h */,
+				02290B95206528FE00DC29AB /* SSPullToRefreshEmptyContentView.m */,
 				9E5FDF4916B9E8600028CF6C /* SSPullToRefreshDefaultContentView.h */,
 				9E5FDF4A16B9E8600028CF6C /* SSPullToRefreshDefaultContentView.m */,
 				9E5FDF4B16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.h */,
@@ -98,6 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02290B96206528FE00DC29AB /* SSPullToRefreshEmptyContentView.h in Headers */,
 				368DECDF1B20B1F10098369F /* SSPullToRefresh.h in Headers */,
 				368DECE01B20B1F10098369F /* SSPullToRefreshDefaultContentView.h in Headers */,
 				368DECE11B20B1F10098369F /* SSPullToRefreshSimpleContentView.h in Headers */,
@@ -173,6 +180,7 @@
 			files = (
 				368DECDE1B20B1EE0098369F /* SSPullToRefreshView.m in Sources */,
 				368DECDD1B20B1EE0098369F /* SSPullToRefreshSimpleContentView.m in Sources */,
+				02290B97206528FE00DC29AB /* SSPullToRefreshEmptyContentView.m in Sources */,
 				368DECDC1B20B1EE0098369F /* SSPullToRefreshDefaultContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

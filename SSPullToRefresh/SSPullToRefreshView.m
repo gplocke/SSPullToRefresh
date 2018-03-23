@@ -170,7 +170,7 @@
 		self.scrollView = scrollView;
 		self.delegate = delegate;
 		self.state = SSPullToRefreshViewStateNormal;
-		self.expandedHeight = 70.0;
+		self.expandedHeight = 80.0;
 		self.defaultContentInset = scrollView.contentInset;
 
 		// Add to scroll view
